@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--    info-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_action_info" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Info"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+    <!-- Message Wait -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_action_messwait" />
+
+        <TextView
+            android:id="@+id/message_wait"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Message wait"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_height="40dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/total_message_wait"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="0"
+            android:textColor="#DB0C61"
+            android:textSize="15dp"
+            android:layout_height="40dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+
+    <!--    friend request-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_all_user" />
+
+        <TextView
+            android:id="@+id/friend_request"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Friend Request"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_height="40dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/total_friend_request"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="0"
+            android:textColor="#DB0C61"
+            android:textSize="15dp"
+            android:layout_height="40dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+    <!--    block list-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_lock_black_24dp" />
+
+        <TextView
+            android:id="@+id/block_list"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Block list"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_height="40dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/total_block_list"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="0"
+            android:textColor="#DB0C61"
+            android:textSize="15dp"
+            android:layout_height="40dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+    <!--    logout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_action_logout" />
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="Logout"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_height="40dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+</LinearLayout>
